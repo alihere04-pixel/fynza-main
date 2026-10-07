@@ -4,6 +4,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: 'https://fynza.store/', lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
     { url: 'https://fynza.store/tiktok', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    // TikTok tool subpages (exact URLs from /tiktok/sitemap.xml, no trailing slash)
+    { url: 'https://fynza.store/tiktok/us/tiktok-shop-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://fynza.store/tiktok/uk/tiktok-shop-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://fynza.store/tiktok/my/tiktok-shop-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://fynza.store/tiktok/sg/tiktok-shop-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://fynza.store/tiktok/ph/tiktok-shop-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://fynza.store/tiktok/blog', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
+    { url: 'https://fynza.store/tiktok/blog/tiktok-shop-profit-margin-calculator', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: 'https://fynza.store/tiktok/blog/tiktok-shop-seller-guide', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: 'https://fynza.store/tiktok/blog/tiktok-shop-vs-amazon-fees', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: 'https://fynza.store/tiktok/blog/how-to-calculate-tiktok-shop-profit', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: 'https://fynza.store/tiktok/blog/tiktok-shop-fee-calculator-2026', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: 'https://fynza.store/tiktok/privacy', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.25 },
+    { url: 'https://fynza.store/tiktok/terms', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.25 },
+    { url: 'https://fynza.store/tiktok/disclaimer', lastModified: new Date(), changeFrequency: 'yearly', priority: 0.25 },
     // Etsy tool
     { url: 'https://fynza.store/etsy', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: 'https://fynza.store/etsy/calculator', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
