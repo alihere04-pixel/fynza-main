@@ -23,9 +23,9 @@ export default function Home() {
             </Link>
           </li>
           <li className="py-4">
-            <span className="font-medium text-zinc-400 dark:text-zinc-600">
-              Etsy Fee Calculator - coming soon
-            </span>
+            <Link href="/etsy" className="font-medium text-zinc-900 underline underline-offset-4 dark:text-zinc-50">
+              Etsy Fee Calculator
+            </Link>
           </li>
         </ul>
         <footer className="mt-16 text-sm text-zinc-500 dark:text-zinc-400">
