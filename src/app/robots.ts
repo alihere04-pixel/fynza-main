@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: [
       'https://fynza.store/sitemap.xml',
       'https://fynza.store/tiktok/sitemap.xml',
+      'https://fynza.store/etsy/sitemap.xml',
     ],
   };
 }
