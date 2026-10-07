@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         source: '/tiktok/:path*',
         destination: 'https://tiktok-calculator-three.vercel.app/tiktok/:path*',
       },
+      {
+        source: '/etsy',
+        destination: 'https://etsy-calculator-fawn.vercel.app/etsy',
+      },
+      {
+        source: '/etsy/:path*',
+        destination: 'https://etsy-calculator-fawn.vercel.app/etsy/:path*',
+      },
     ];
   },
 };
