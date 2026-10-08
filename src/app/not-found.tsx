@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: "404 — Page Not Found",
   description: DESCRIPTION,
   robots: { index: false, follow: false },
-  alternates: { canonical: "https://fynza.store" },
   openGraph: {
     title: "404 — Page Not Found",
     description: DESCRIPTION,
