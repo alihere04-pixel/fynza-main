@@ -26,6 +26,18 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <main className="flex min-h-[60vh] flex-col items-center justify-center px-4 py-20 text-center">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "404 — Page Not Found",
+            url: "https://fynza.store",
+            description: "Page not found",
+          }),
+        }}
+      />
       <h1 className="text-4xl font-bold text-gray-900">404 — Page not found</h1>
       <p className="mt-4 max-w-md text-gray-600">
         {"The page you're looking for doesn't exist or has been moved."}
@@ -50,6 +62,15 @@ export default function NotFound() {
           Etsy Calculator
         </Link>
       </nav>
+      <p className="mt-6 text-sm text-gray-500">
+        Questions? Contact{" "}
+        <a
+          href="mailto:contact@fynza.store"
+          className="text-orange-600 underline hover:text-orange-700"
+        >
+          contact@fynza.store
+        </a>
+      </p>
     </main>
   );
 }
