@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Fynza — Free E-commerce Seller Tools",
   description: DESCRIPTION,
   alternates: { canonical: "https://fynza.store" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Fynza — Free E-commerce Seller Tools",
     description: DESCRIPTION,
