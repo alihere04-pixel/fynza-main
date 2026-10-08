@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const DESCRIPTION =
+  "The page you're looking for doesn't exist or has been moved. Find free calculators for TikTok Shop and Etsy at Fynza.";
+
 export const metadata: Metadata = {
   title: "404 — Page Not Found",
+  description: DESCRIPTION,
+  robots: { index: false, follow: false },
+  alternates: { canonical: "https://fynza.store" },
+  openGraph: {
+    title: "404 — Page Not Found",
+    description: DESCRIPTION,
+    url: "https://fynza.store",
+    siteName: "Fynza",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "404 — Page Not Found",
+    description: DESCRIPTION,
+  },
 };
 
 export default function NotFound() {
